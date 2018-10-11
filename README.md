@@ -11,4 +11,17 @@ In  Analysis 1 ,I focussed on year 2010 and the access parameters affecting the 
 In Analysis 2, I focussed on year 2015 and the access, food assistance parameters affecting the poverty rate in 2015
 In Analysis 3, I focussed on year 2016 and the farmers market analysis across the states and counties in US.
 
-I played around with R to gather different ways of implementing the same logical result.I hope you enjoy visiting it.
+I played around with R to gather different ways of implementing the same logical result.I hope you enjoy visiting it. This analysis is purely descriptive and exploratory analysis to gain insights.
+
+Analysis 1 and 2:
+I heavily used the SQLDF package in R for this analysis. SQLDF package is offered in R that can be used to access the SQL functionlaities in the R dataframe. The best part of using this package is that it converts the analysis to a table so you can manipulate the result table as well. I used SQL clauses like inner join, order by, limit, select clause, group by, having, where clause.
+
+You can learn more about the package in this link :https://cran.r-project.org/web/packages/sqldf/sqldf.pdf
+
+Analysis 3:
+I used R function for manipulating the dataset.I relied on Tapply and dataframe indexing for the analysis. Tapply is a handy function that helps in summarizing certain columns in your data by a condition of another column in the dataset, much like group by and having clause.
+Except for the output in tapply is a vector and not like a table as we get in sqldf.
+
+You can learn more about the tapply function in this link :https://www.rdocumentation.org/packages/base/versions/3.5.1/topics/tapply
+
+Besides, head and tail in built function in R is also very useful for ranking feature in R and is very easy to implement.
