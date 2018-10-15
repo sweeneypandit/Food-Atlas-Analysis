@@ -11,7 +11,7 @@ In  Analysis 1 ,I focussed on year 2010 and the access parameters affecting the 
 In Analysis 2, I focussed on year 2015 and the access, food assistance parameters affecting the poverty rate in 2015
 In Analysis 3, I focussed on year 2016 and the farmers market analysis across the states and counties in US.
 
-I played around with R to gather different ways of implementing the same logical result.I hope you enjoy visiting it. This analysis is purely descriptive and exploratory analysis to gain insights.
+I played around with R to gather different ways of implementing the same logical result.I hope you enjoy visiting it. This analysis is purely descriptive and exploratory analysis to gain insights of the diverse food factors accross demographics.
 
 Analysis 1 and 2:
 I heavily used the SQLDF package in R for this analysis. SQLDF package is offered in R that can be used to access the SQL functionlaities in the R dataframe. The best part of using this package is that it converts the analysis to a table so you can manipulate the result table as well. I used SQL clauses like inner join, order by, limit, select clause, group by, having, where clause.
